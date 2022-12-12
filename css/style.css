@@ -106,12 +106,13 @@ body {
     overflow: auto;
     padding: 20px 0;
     background-color: var(--accentPrimary1);
-    opacity: .9;
+    opacity: .98;
     -webkit-transition: left .5s;
     transition: left .5s;
   }
   .menu._active {
     left: 0;
+    z-index:999;
   }
 }
 
