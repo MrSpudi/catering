@@ -194,7 +194,7 @@ body {
     width: 30px;
     position: relative;
     cursor: pointer;
-    z-index: 5;
+    z-index: 1001;
   }
   .menu-icon span {
     -webkit-transition: all 0.3s ease 0s;
